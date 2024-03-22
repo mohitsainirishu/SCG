@@ -109,29 +109,7 @@ class _ScrollingpageState extends State<Scrollingpage> {
 
                 ),
               ),
-              // SizedBox(
-              //   height: 30,
-              // ),
-              //  Row(
-              //   mainAxisAlignment: MainAxisAlignment.center,
-              //   children: <Widget>[
-              //     Text(
-              //       'I already',
-              //       style: TextStyle(
-              //         fontSize: 16,color: Colors.orange,
-              //       ),
-              //     ),
-                  // FlatButton(
-                  //   child: Text(
-                  //     'Login',
-                  //     style: TextStyle(fontSize: 18),
-                  //   ),
-                  //   onPressed: () {
-                  //    // Navigator.of(context).pushNamed(LoginScreen.routeName);
-                  //   },
-                  // ),
-         //       ],
-         //     )
+
             ],
           ),
         ),

@@ -1,3 +1,4 @@
+
 import 'package:flutter/material.dart';
 import 'package:fl_chart/fl_chart.dart';
 void main() {
@@ -35,17 +36,17 @@ class _LineChartAppState extends State<LineChartApp> {
                         height: 80,
                         width: 100,
                         decoration: BoxDecoration(
-                          color: Colors.purpleAccent,
+                            color: Colors.purpleAccent,
                             border: Border.all(
                               color: Colors.purpleAccent,
                             ),
                             borderRadius: BorderRadius.all(Radius.circular(20))
                         ),
                         child: Center(child: Text("Total Orders",style: TextStyle(color: Colors.white,fontSize: 23,fontWeight: FontWeight.bold),)),
-                ),
+                      ),
                     )),
                 Expanded(child: Padding(
-                padding: const EdgeInsets.all(8.0),
+                  padding: const EdgeInsets.all(8.0),
                   child: Container(
                     height: 80,
                     width: 100,
@@ -97,7 +98,7 @@ class _LineChartAppState extends State<LineChartApp> {
                 )),
               ],
             ),
-           // SizedBox(height: 16),
+            // SizedBox(height: 16),
             Row(
               children: [
                 Expanded(
@@ -215,7 +216,7 @@ class LineChartWidget extends StatelessWidget {
             ),
           ],
           titlesData: FlTitlesData(
-            leftTitles: SideTitles(
+           leftTitles: SideTitles(
               showTitles: true,
               margin: 8,
               reservedSize: 30,
